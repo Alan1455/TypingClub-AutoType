@@ -1,27 +1,26 @@
 # TypingClub-AutoType
 
-一個受 TypingClub.com 啟發的本地自動打字與練習腳本  
-⚠️ 本程式僅供**學習、開發與本地測試使用**，請勿用於任何線上平台或作弊行為
+A local auto-typing and practice script inspired by TypingClub.com  
+⚠️ This program is for **learning, development, and local testing only**, please do not use it on any online platform or for cheating
 
-## ✨ 功能特色
-- 可輸入目標 WPM (預設 120，最高 150)
-- 模擬自然的人類打字延遲 (隨機間隔)
-- 可自動進行段落或練習測試 (選擇性)
-- 適合用於開發打字練習工具、模擬人類鍵盤輸入或測試 key event 行為
+## ✨ Features
+- Allows you to enter a target WPM (default 120, maximum 150)
+- Simulates natural human typing delays (random intervals)
+- Can automatically perform paragraph or practice tests (optional)
+- Suitable for developing typing practice tools, simulating human keyboard input, or testing key event behavior
 
-## 🧠 運作原理
-此腳本會:
-1. 讀取頁面上的目標字元
-2. 根據設定的 WPM 模擬輸入延遲
-3. 在完成一段後自動下一關
+## 🧠 How It Works
+This script:
+1. Reads the target characters on the page
+2. Simulates input delays based on the configured WPM
+3. Automatically proceeds to the next level after completing a section
 
-## ⚙️ 使用方式
-1. 將 JavaScript 程式碼貼到網站的Console
-2. 執行後輸入目標 WPM
-3. 程式會根據設定速度模擬輸入
+## ⚙️ Usage
+1. Paste the JavaScript code into the website's Console
+2. Enter the target WPM after running it
+3. The program simulates input according to the configured speed
 
-## 📜 授權說明
-本專案採用 MIT License 授權。  
-你可以自由使用、修改、分發本程式碼，包含商業用途，但需保留原始版權聲明與授權條款。  
-本軟體不附帶任何保證，作者不對任何損害或責任負責。
-
+## 📜 License
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this code, including for commercial purposes, but you must retain the original copyright notice and license terms.  
+This software is provided without any warranty, and the author is not responsible for any damages or liability.
